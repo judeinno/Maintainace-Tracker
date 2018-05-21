@@ -1,0 +1,10 @@
+body{
+    background-image: url("https://blog.rackspace.com/wp-content/uploads/2016/09/site-maintenance.jpg")
+
+}
+div{
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
