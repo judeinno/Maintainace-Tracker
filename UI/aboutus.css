@@ -3,7 +3,7 @@ body{
     background-size: cover;
 }
 div{
-    padding-top: 30px;
+    padding-top: 0px;
     padding-right: 30px;
     padding-bottom: 100px;
     padding-left: 80px;
@@ -11,7 +11,7 @@ div{
 }
 
 fieldset{
-    height: 115px;
+    height: 140px;
     border-radius: 20px;
     background-color: rgba(231, 170, 16, 0.849);
     
