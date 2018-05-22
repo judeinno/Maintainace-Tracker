@@ -19,6 +19,7 @@ div{
 fieldset{
     height: 400px;
     border-radius: 20px;
+    background-color: rgba(231, 170, 16, 0.849);
     
 }
 input{
