@@ -42,7 +42,10 @@ input{
     padding-left: 40px;
     text-transform: uppercase;
     text-align: center;
+    
+
 }
 #sign{
-    
+    text-shadow: 2px 2px #fff;
+    font-size: 32px;
 }
