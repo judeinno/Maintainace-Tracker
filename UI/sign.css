@@ -2,11 +2,11 @@ body{
     background: url("https://s3-us-west-2.amazonaws.com/staticresources123/Article%20images/maintenance.png");
     background-size: cover;
 }
-.haveacc{
+div{
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 10px;
-    padding-left: 50px;
+    padding-left: 80px;
     text-align: justify;
 }
 .signup{
@@ -33,11 +33,4 @@ input{
     background-color: rgba(102, 99, 99, 0.973);
     border-color: rgba(102, 99, 99, 0.973);
     border-radius: 20px;
-}
-.note{
-    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 300px;
-    padding-left: 800px;
-    text-align: center
 }
