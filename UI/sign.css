@@ -49,3 +49,8 @@ input{
     text-shadow: 2px 2px #fff;
     font-size: 32px;
 }
+#submit:hover{
+    cursor: pointer;
+    color: rgba(231, 170, 16, 0.849);
+    background-color: rgb(7, 7, 7);
+}
