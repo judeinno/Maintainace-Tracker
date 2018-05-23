@@ -74,3 +74,8 @@ li a {
 li a:hover {
     background-color: #111;
 }
+#submit:hover{
+    cursor: pointer;
+    color: rgba(231, 170, 16, 0.849);
+    background-color: rgb(7, 7, 7);
+}
