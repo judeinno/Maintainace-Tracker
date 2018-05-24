@@ -1,6 +1,7 @@
 body{
     background: url("https://s3-us-west-2.amazonaws.com/staticresources123/Article%20images/maintenance.png");
     background-size: cover;
+    background-color: rgba(109, 97, 68, 0.3);
 }
 div{
     padding-top: 20px;
@@ -19,8 +20,8 @@ div{
 fieldset{
     height: 115px;
     border-radius: 20px;
-    background-color: rgba(231, 170, 16, 0.849);
-    
+    background-color: rgba(245, 179, 11, 0.836);
+    border: none;
 }
 input{
     padding-top: 5px;
