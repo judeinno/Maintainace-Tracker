@@ -1,0 +1,80 @@
+body{
+    background: url("http://ims-crystal.com/wp-content/uploads/2015/05/E-maintenance-1.jpg");
+    background-size: cover;
+    
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+    
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+tr:nth-child(odd){background-color: gray}
+
+th {
+    background-color: rgba(231, 170, 16, 0.849);
+    color: white;
+}
+#Maintenance{
+    color:rgba(231, 170, 16, 0.849);
+    text-shadow: 2px 2px black;
+    font-size: 40px;
+
+}
+#footer{
+    padding-top: -100px;
+    padding-right: 1060px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    text-align: center;
+    color:white;
+}
+#request{
+    color:white;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+#submit:hover{
+    cursor: pointer;
+    color: rgba(231, 170, 16, 0.849);
+    background-color: rgb(7, 7, 7);
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
