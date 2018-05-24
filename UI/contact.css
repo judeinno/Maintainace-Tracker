@@ -1,0 +1,45 @@
+body{
+    background: url("https://s3-us-west-2.amazonaws.com/staticresources123/Article%20images/maintenance.png");
+    background-size: cover;
+}
+div{
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    padding-left: 80px;
+    text-align: justify;
+}
+
+fieldset{
+    height: 140px;
+    border-radius: 20px;
+    background-color: rgba(231, 170, 16, 0.849);
+    
+}
+#Maintenance{
+    padding-top: 20px;
+    padding-right: 1050px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+
+}
+#about{
+    text-shadow: 2px 2px #fff;
+    font-size: 32px;
+}
+
+#footer{
+    padding-top: -100px;
+    padding-right: 1060px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    text-align: center;
+}
+#slogan{
+    text-shadow: 2px 2px #fff;
+    font-size: 16px;
+}
