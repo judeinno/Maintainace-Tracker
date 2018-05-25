@@ -98,4 +98,7 @@ li a:hover {
     border: none;
     cursor: pointer;
 }
-
+#slogan{
+    color: rgba(236, 224, 193, 0.836);
+    text-shadow: 2px 2px black;
+}
