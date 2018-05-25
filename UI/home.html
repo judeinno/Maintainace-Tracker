@@ -1,173 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <link rel="stylesheet" type="text/css" href="./home.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Maintainace Tracker</title>
-</head>
-<body>
-        <h1 id="Maintenance">Maintenance Tracker</h1>
-        <div>
-            <ul>
-                <li><a href="./home.html">Home</a></li>
-                <li><a href="./request.html">Add New Request</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
-                <li><a href="./signin.html">Log Out</a></li>
-                
-            </ul>
-        </div>
-        <div>
-            <p id="datehead">Date:</p>
-            <input id="date" type="date">
-            <button id="submit" type="submit">Add</button><br><br>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  </head>
+  <div class="bg" ></div>
+  <div class="content">
+    <body>
+        <title>Maintainace Tracker</title>
+            <h1 id="Maintenance">Maintenance Tracker</h1>
+            <div>
+                <ul>
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./request.html">Add New Request</a></li>
+                    <li><a href="./contact.html">Contact Us</a></li>
+                    <li><a href="./signin.html">Log Out</a></li>
+                    
+                </ul>
+            </div>
+            <div>
+                <p id="datehead">Date:</p>
+                <input id="date" type="date">
+                <button id="submit" type="submit">Add</button><br><br>
 
-            <button id="submit" type="submit">Create Request</button>
-            <p id="day">22/5/2018</p>
-            <table >
-                    <tr>
-                      <th>Request_id</th>
-                      <th>Field</th>		
-                      <th>Sub Field</th>
-                      <th>Request_Type</th>
-                      <th>Details</th>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td><select id="entity" name="entity">
-                            <option value="Electricity">Electricity</option>
-                            <option value="Water">Water</option>
-                            <option value="Environment">Environment</option>
-                          </select></td>		
-                      <td><select id="sub" name="sub">
-                            <option value="Buld">Bulb</option>
-                            <option value="Sockets">Sockets</option>
-                            <option value="No power">No power</option>
-                          </select></td>
-                      <td><select id="sub" name="sub">
-                            <option value="replace">replace</option>
-                            <option value="repair">repair</option>
-                            <option value="Maintenance">Maintenance</option>
-                          </select></td>
-                          <td><textarea>They blow</textarea></td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td><select id="entity" name="entity">
-                            <option value="Water">Water</option>
-                            <option value="Electricity">Electricity</option>
-                            
-                            <option value="Environment">Environment</option>
-                          </select></td>		
-                      <td><select id="sub" name="sub">
-                            <option value="Water Heater">Water Heater</option>
-                            <option value="No water">No water</option>
-                            <option value="Broken Pipe">Broken Pipe</option>
-                          </select></td>
-                      <td><select id="sub" name="sub">
-                            <option value="Maintenance">Maintenance</option>
-                            <option value="repair">repair</option>
-                            <option value="replace">replace</option>
-                          </select></td>
-                          <td><textarea>No longer heating the water</textarea></td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td><select id="entity" name="entity">
-                            <option value="Environment">Environment</option>
-                            <option value="Electricity">Electricity</option>
-                            <option value="Water">Water</option>
-                            
-                          </select></td>		
-                      <td><select id="sub" name="sub">
-                            <option value="Grass triming">Grass triming</option>
-                            <option value="Tree triming">ree triming</option>
-                            <option value="Flower watering">Flower watering</option>
-                          </select></td></td>
-                      <td><select id="sub" name="sub">
-                            <option value="Maintenance">Maintenance</option>
-                            <option value="repair">repair</option>
-                            <option value="replace">replace</option>
-                          </select></td>
-                          <td><textarea>Havw over grown</textarea></td>
-                    </tr>
-                </table>
-                <p id="day">21/5/2018</p>
+                <button id="submit" type="submit">Create Request</button>
+                <p id="day">22/5/2018</p>
                 <table >
-                    <tr>
-                      <th>Request_id</th>
-                      <th>Field</th>		
-                      <th>Sub Field</th>
-                      <th>Request_Type</th>
-                      <th>Details</th>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td><select id="entity" name="entity">
-                            <option value="Electricity">Electricity</option>
-                            <option value="Water">Water</option>
-                            <option value="Environment">Environment</option>
-                          </select></td>		
-                      <td><select id="sub" name="sub">
-                            <option value="Sockets">Sockets</option>
-                            <option value="Buld">Bulb</option>
-                            <option value="No power">No power</option>
-                          </select></td>
-                      <td><select id="sub" name="sub">
-                            <option value="repair">repair</option>
-                            <option value="Maintenance">Maintenance</option>
-                            <option value="replace">replace</option>
-                          </select></td>
-                          <td><textarea>They short circuited</textarea></td>
-                    </tr>
-                      <td>2</td>
-                      <td><select id="entity" name="entity">
-                            <option value="Water">Water</option>
-                            <option value="Electricity">Electricity</option>
-                            <option value="Environment">Environment</option>
-                          </select></td>		
-                      <td><select id="sub" name="sub">
-                            <option value="No water">No water</option>
-                            <option value="Water Heater">Water Heater</option>
-                            <option value="Broken Pipe">Broken Pipe</option>
-                          </select></td></td>
-                      <td><select id="sub" name="sub">
-                            <option value="Maintenance">Maintenance</option>
-                            <option value="repair">repair</option>
-                            <option value="replace">replace</option>
-                          </select></td>
-                          <td><textarea>Been off since morning</textarea></td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td><select id="entity" name="entity">
-                            <option value="Environment">Environment</option>                          
-                            <option value="Electricity">Electricity</option>
-                            <option value="Water">Water</option>
-                          </select></td>		
-                      <td><select id="sub" name="sub">
-                            <option value="Tree triming">Tree triming</option>
-                            <option value="Grass triming">Grass triming</option>
-                            <option value="Flower watering">Flower watering</option>
-                          </select></td>
-                          </td>
-                        </select></td>
-                        <td><select id="sub" name="sub">
+                        <tr>
+                          <th>Request_id</th>
+                          <th>Field</th>		
+                          <th>Sub Field</th>
+                          <th>Request_Type</th>
+                          <th>Details</th>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td><select id="entity" name="entity">
+                                <option value="Electricity">Electricity</option>
+                                <option value="Water">Water</option>
+                                <option value="Environment">Environment</option>
+                              </select></td>		
+                          <td><select id="sub" name="sub">
+                                <option value="Buld">Bulb</option>
+                                <option value="Sockets">Sockets</option>
+                                <option value="No power">No power</option>
+                              </select></td>
+                          <td><select id="sub" name="sub">
+                                <option value="replace">replace</option>
+                                <option value="repair">repair</option>
+                                <option value="Maintenance">Maintenance</option>
+                              </select></td>
+                              <td><textarea>They blow</textarea></td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td><select id="entity" name="entity">
+                                <option value="Water">Water</option>
+                                <option value="Electricity">Electricity</option>
+                                
+                                <option value="Environment">Environment</option>
+                              </select></td>		
+                          <td><select id="sub" name="sub">
+                                <option value="Water Heater">Water Heater</option>
+                                <option value="No water">No water</option>
+                                <option value="Broken Pipe">Broken Pipe</option>
+                              </select></td>
+                          <td><select id="sub" name="sub">
                                 <option value="Maintenance">Maintenance</option>
                                 <option value="repair">repair</option>
                                 <option value="replace">replace</option>
                               </select></td>
-                              <td><textarea>They need trimming</textarea></td>
-                    </tr>
-                </table>
-        </div>
-</body>
-    <div>
-        <br><br><br><br><footer id="footer">
-            
-            <p id="slogan">Maintenance Trackers, We do it best!</p>
-            2018 Main.Tracker 
-        </footer>
+                              <td><textarea>No longer heating the water</textarea></td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td><select id="entity" name="entity">
+                                <option value="Environment">Environment</option>
+                                <option value="Electricity">Electricity</option>
+                                <option value="Water">Water</option>
+                                
+                              </select></td>		
+                          <td><select id="sub" name="sub">
+                                <option value="Grass triming">Grass triming</option>
+                                <option value="Tree triming">ree triming</option>
+                                <option value="Flower watering">Flower watering</option>
+                              </select></td></td>
+                          <td><select id="sub" name="sub">
+                                <option value="Maintenance">Maintenance</option>
+                                <option value="repair">repair</option>
+                                <option value="replace">replace</option>
+                              </select></td>
+                              <td><textarea>Havw over grown</textarea></td>
+                        </tr>
+                    </table>
+                    <p id="day">21/5/2018</p>
+                    <table >
+                        <tr>
+                          <th>Request_id</th>
+                          <th>Field</th>		
+                          <th>Sub Field</th>
+                          <th>Request_Type</th>
+                          <th>Details</th>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td><select id="entity" name="entity">
+                                <option value="Electricity">Electricity</option>
+                                <option value="Water">Water</option>
+                                <option value="Environment">Environment</option>
+                              </select></td>		
+                          <td><select id="sub" name="sub">
+                                <option value="Sockets">Sockets</option>
+                                <option value="Buld">Bulb</option>
+                                <option value="No power">No power</option>
+                              </select></td>
+                          <td><select id="sub" name="sub">
+                                <option value="repair">repair</option>
+                                <option value="Maintenance">Maintenance</option>
+                                <option value="replace">replace</option>
+                              </select></td>
+                              <td><textarea>They short circuited</textarea></td>
+                        </tr>
+                          <td>2</td>
+                          <td><select id="entity" name="entity">
+                                <option value="Water">Water</option>
+                                <option value="Electricity">Electricity</option>
+                                <option value="Environment">Environment</option>
+                              </select></td>		
+                          <td><select id="sub" name="sub">
+                                <option value="No water">No water</option>
+                                <option value="Water Heater">Water Heater</option>
+                                <option value="Broken Pipe">Broken Pipe</option>
+                              </select></td></td>
+                          <td><select id="sub" name="sub">
+                                <option value="Maintenance">Maintenance</option>
+                                <option value="repair">repair</option>
+                                <option value="replace">replace</option>
+                              </select></td>
+                              <td><textarea>Been off since morning</textarea></td>
+                        </tr>
+                        <tr>
+                          <td>3</td>
+                          <td><select id="entity" name="entity">
+                                <option value="Environment">Environment</option>                          
+                                <option value="Electricity">Electricity</option>
+                                <option value="Water">Water</option>
+                              </select></td>		
+                          <td><select id="sub" name="sub">
+                                <option value="Tree triming">Tree triming</option>
+                                <option value="Grass triming">Grass triming</option>
+                                <option value="Flower watering">Flower watering</option>
+                              </select></td>
+                              </td>
+                            </select></td>
+                            <td><select id="sub" name="sub">
+                                    <option value="Maintenance">Maintenance</option>
+                                    <option value="repair">repair</option>
+                                    <option value="replace">replace</option>
+                                  </select></td>
+                                  <td><textarea>They need trimming</textarea></td>
+                        </tr>
+                    </table>
+            </div>
+    </body>
+        <div>
+            <br><br><br><br><footer id="footer">
+                
+                <p id="slogan">Maintenance Trackers, We do it best!</p>
+                2018 Main.Tracker 
+            </footer>
 
-    </div>
+        </div>
+  </div>
 </html>
