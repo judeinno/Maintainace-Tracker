@@ -10,7 +10,7 @@ body{
 div{
     padding-top: 0px;
     padding-right: 30px;
-    padding-bottom: 200px;
+    padding-bottom: 0px;
     padding-left: 50px;
     text-align: justify;
     
@@ -23,13 +23,15 @@ div{
     text-align: justify;
 }
 fieldset{
-    height: 160px;
+    height: 170px;
     width: 200px;
     border-radius: 20px;
     background-color: rgba(216, 203, 171, 0.212);
     border: none;
-    padding-top: o;
-    padding-bottom: 10;
+    padding-top: 0px;
+    padding-right: 1050px;
+    padding-bottom: 0px;
+    padding-left: 20px;
 }
 input{
     padding-top: 5px;
@@ -49,7 +51,7 @@ input{
 #Maintenance{
     padding-top: 0px;
     padding-right: 1050px;
-    padding-bottom: 5px;
+    padding-bottom: 0px;
     padding-left: 40px;
     text-transform: uppercase;
     color: rgba(236, 224, 193, 0.836);
