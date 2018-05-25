@@ -1,7 +1,7 @@
 body{
     background: url("https://s3-us-west-2.amazonaws.com/staticresources123/Article%20images/maintenance.png");
     background-size: cover;
-    background-color: rgba(109, 97, 68, 0.3);
+    background-color: rgba(61, 51, 60, 0.527);
 }
 div{
     padding-top: 20px;
@@ -35,6 +35,7 @@ input{
     background-color: rgba(102, 99, 99, 0.973);
     border-color: rgba(102, 99, 99, 0.973);
     border-radius: 20px;
+    border: none;
 }
 #Maintenance{
     padding-top: 20px;
