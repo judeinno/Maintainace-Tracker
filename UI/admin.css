@@ -100,3 +100,7 @@ li a:hover {
     display: block;
     
 }
+#slogan{
+    color: rgba(231, 170, 16, 0.849);
+    text-shadow: 2px 2px black;
+}
