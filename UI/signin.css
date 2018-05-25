@@ -1,14 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 body{
-    background: url("https://s3-us-west-2.amazonaws.com/staticresources123/Article%20images/maintenance.png");
+    background: 
+    url("http://ims-crystal.com/wp-content/uploads/2015/05/E-maintenance-1.jpg") no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(61, 51, 60, 0.527);
+    font-family: "Open Sans Condensed", sans-serif;
+    
 }
 div{
-    padding-top: 20px;
+    padding-top: 0px;
     padding-right: 30px;
-    padding-bottom: 100px;
-    padding-left: 80px;
+    padding-bottom: 200px;
+    padding-left: 50px;
     text-align: justify;
+    
 }
 .signin{
     padding-top: 0px;
@@ -18,9 +23,10 @@ div{
     text-align: justify;
 }
 fieldset{
-    height: 150px;
+    height: 160px;
+    width: 200px;
     border-radius: 20px;
-    background-color: rgba(245, 179, 11, 0.836);
+    background-color: rgba(216, 203, 171, 0.212);
     border: none;
     padding-top: o;
     padding-bottom: 10;
@@ -30,7 +36,8 @@ input{
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left:5px;
-    border-style: solid;
+    border-style: none;
+    border-radius: 10px;
 }
 #submit{
     color: #fff;
@@ -45,6 +52,8 @@ input{
     padding-bottom: 5px;
     padding-left: 40px;
     text-transform: uppercase;
+    color: rgba(236, 224, 193, 0.836);
+    text-shadow: 2px 2px black;
     text-align: center;
     
 
@@ -68,8 +77,8 @@ input{
     text-align: center;
 }
 #slogan{
-    text-shadow: 2px 2px #fff;
-    font-size: 16px;
+    color: rgba(236, 224, 193, 0.836);
+    text-shadow: 2px 2px black;
 }
 #submit:hover{
     cursor: pointer;
