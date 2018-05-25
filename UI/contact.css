@@ -7,7 +7,7 @@ body{
     font-family: "Open Sans Condensed", sans-serif;
     
 }
-.contactus{
+#contactus{
     padding-top: 0px;
     padding-right: 500px;
     padding-bottom: 20px;
@@ -15,7 +15,7 @@ body{
     text-align: justify;
 }
 fieldset{
-    height: 170px;
+    height: 200px;
     width: 200px;
     border-radius: 20px;
     background-color: rgba(216, 203, 171, 0.212);
