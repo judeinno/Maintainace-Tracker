@@ -74,7 +74,7 @@ input{
     text-align: center;
 }
 #slogan{
-    color: rgba(236, 224, 193, 0.836);
+    color: rgba(231, 170, 16, 0.849);
     text-shadow: 2px 2px black;
 }
 #submit:hover{
@@ -86,5 +86,5 @@ input{
     color: rgb(37, 177, 177);
 }
 p{
-    color: rgb(214, 199, 180);
+    color: rgb(165, 154, 139);
 }
