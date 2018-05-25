@@ -1,7 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
 body{
     font-family: "Open Sans Condensed", sans-serif;
-    
 }
 .bg {
     position: fixed;
@@ -20,6 +19,15 @@ body{
     -ms-filter: blur(5px);
     filter: blur(5px);
     background-size: cover;
+  }
+  
+  .content {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 .signup{
     padding-top: 0px;
