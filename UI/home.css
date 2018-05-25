@@ -52,7 +52,8 @@ th {
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left:5px;
-    border-style: solid;
+    border-style: bottom;
+
 }
 ul {
     list-style-type: none;
@@ -85,8 +86,8 @@ li a:hover {
 }
 #submit:hover{
     cursor: pointer;
-    color: rgba(231, 170, 16, 0.849);
-    background-color: rgb(7, 7, 7);
+    color: rgba(27, 26, 24, 0.849);
+    background-color: rgba(211, 190, 190, 0.616);
 }
 .dropbtn {
     background-color: #4CAF50;
