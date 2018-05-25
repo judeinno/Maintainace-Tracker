@@ -7,7 +7,7 @@ body{
     font-family: "Open Sans Condensed", sans-serif;
     
 }
-#contactus{
+#aboutus{
     padding-top: 0px;
     padding-right: 500px;
     padding-bottom: 20px;
@@ -15,7 +15,7 @@ body{
     text-align: justify;
 }
 fieldset{
-    height: 220px;
+    height: 240px;
     width: 200px;
     border-radius: 20px;
     background-color: rgba(216, 203, 171, 0.212);
@@ -25,13 +25,14 @@ fieldset{
     padding-bottom: 0px;
     padding-left: 100px;
 }
-input{
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left:5px;
+p{
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left:0px;
     border-style: none;
     border-radius: 10px;
+    text-align: center;
 }
 #submit{
     color: #fff;
@@ -53,7 +54,7 @@ input{
     
 
 }
-#contact{
+#about{
     color: rgba(19, 14, 17, 0.842);
     text-shadow: 2px 2px rgb(107, 101, 101);
     font-size: 32px;
