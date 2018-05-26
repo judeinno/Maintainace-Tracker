@@ -27,6 +27,7 @@
                         <th>Sub Field</th>
                         <th>Request_Type</th>
                         <th>Details</th>
+                        <th>Assign Specialist</th>
                         <th>Status</th>
                       </tr>
                       <tr>
@@ -39,7 +40,14 @@
                               <div class="dropdown-content">
                                 <p>The bulb blew</p>
                               </div>
-                            </div></td>
+                            </div>
+                       </td>
+                      <td><select id="entity" name="entity">
+                        <option value="Electrician">Electrician</option>
+                        <option value="Water">Water Engineer</option>
+                        <option value="Environment">Hand Man</option>
+                        </select>
+                      </td>	
                         <td><button id="submit" type="submit">Approve</button><br><button id="submit" type="submit">Disapprove</button><br></td>
 
                       </tr>
@@ -54,6 +62,12 @@
                               <p>Its not heating the water</p>
                             </div>
                           </div></td>
+                          <td><select id="entity" name="entity">
+                            <option value="Electrician">Electrician</option>
+                            <option value="Water">Water Engineer</option>
+                            <option value="Environment">Hand Man</option>
+                            </select>
+                          </td>	
                         <td><button id="submit" type="submit">Approve</button><br><button id="submit" type="submit">Disapprove</button><br></td>
                       </tr>
                       <tr>
@@ -67,6 +81,12 @@
                               <p>It has over grown</p>
                             </div>
                           </div></td>
+                          <td><select id="entity" name="entity">
+                              <option value="Environment">Hand Man</option>
+                              <option value="Water">Water Engineer</option>
+                              <option value="Electrician">Electrician</option>
+                              </select>
+                            </td>	
                         <td><button id="submit" type="submit">Approve</button><br><button id="submit" type="submit">Disapprove</button><br></td>
                       </tr>
                   </table>
@@ -77,7 +97,8 @@
                         <th>Field</th>		
                         <th>Sub Field</th>
                         <th>Request_Type</th>
-                        <th>Details</th>                                                                  
+                        <th>Details</th>  
+                        <th>Assign Specialist</th>                                                                
                         <th>Status</th>
                       </tr>
                       <tr>
@@ -91,6 +112,12 @@
                               <p>They short circuited</p>
                             </div>
                           </div></td>
+                          <td><select id="entity" name="entity">
+                              <option value="Electrician">Electrician</option>
+                              <option value="Water">Water Engineer</option>
+                              <option value="Environment">Hand Man</option>
+                              </select>
+                            </td>
                         <td><button id="submit" type="submit">Approve</button><br><button id="submit" type="submit">Disapprove</button><br></td>
                       </tr>
                       <tr>
@@ -104,6 +131,13 @@
                               <p>Its broken</p>
                             </div>
                           </div></td>
+                          <td><select id="entity" name="entity">
+                              <option value="Water">Plumber</option>
+                              <option value="Water">Water Engineer</option>
+                              <option value="Electrician">Electrician</option>
+                              <option value="Environment">Hand Man</option>
+                              </select>
+                            </td>
                         <td><button id="submit" type="submit">Approve</button><br><button id="submit" type="submit">Disapprove</button><br></td>
                       </tr>
                       <tr>
@@ -117,6 +151,13 @@
                               <p>They need trimming</p>
                             </div>
                           </div></td>
+                        <td><select id="entity" name="entity">
+                              <option value="Environment">Hand Man</option>
+                              <option value="Water">Water Engineer</option>
+                              <option value="Electrician">Electrician</option>
+                              <option value="Water">Plumber</option>
+                              </select>
+                          </td>
                         <td><button id="submit" type="submit">Approve</button><br><button id="submit" type="submit">Disapprove</button><br></td>
                       </tr>
                   </table>
