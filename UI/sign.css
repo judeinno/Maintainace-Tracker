@@ -21,13 +21,14 @@ body{
     background-size: cover;
   }
   
-  .content {
+  #content {
     position: fixed;
     left: 0;
     right: 0;
     z-index: 9999;
-    margin-left: 20px;
+    margin-left: 330px;
     margin-right: 20px;
+    align-content: center;
   }
 .signup{
     padding-top: 0px;
@@ -64,7 +65,7 @@ input{
 }
 #Maintenance{
     padding-top: 0px;
-    padding-right: 635px;
+    padding-right: 300px;
     padding-bottom: 0px;
     padding-left:0px;
     text-transform: uppercase;
@@ -82,7 +83,7 @@ input{
 }
 #account{
     padding-top: 0px;
-    padding-right: 600px;
+    padding-right: 300px;
     padding-bottom: 0px;
     padding-left:250px;
     text-align: justify;
@@ -107,5 +108,5 @@ input{
     color: rgb(37, 177, 177);
 }
 p{
-    color: rgb(165, 154, 139);
+    color: rgb(201, 190, 174);
 }
