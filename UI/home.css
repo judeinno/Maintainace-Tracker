@@ -52,7 +52,7 @@ th {
 #Maintenance{
     color:rgba(231, 170, 16, 0.849);
     text-shadow: 2px 2px black;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     padding-top: 41px;
     
@@ -62,7 +62,8 @@ th {
     color:white;
 }
 #day{
-    text-align: center;
+    text-align: left;
+    margin-left: 100px;
     color:white;
     text-shadow: 2px 2px black;
     font-size: 20px;
@@ -73,11 +74,9 @@ th {
     text-shadow: 2px 2px black;
     font-size: 20px;
 }
-input{
+#datein{
     text-align: center;
     margin: 0 auto;
-    border-style: bottom;
-
 }
 ul {
     list-style-type: none;
