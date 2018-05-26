@@ -107,6 +107,9 @@ li a {
 li a:hover {
     background-color: #111;
 }
+#submit{
+    border-radius: 10px;
+}
 #submit:hover{
     cursor: pointer;
     color: rgba(27, 26, 24, 0.849);
