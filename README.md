@@ -1,2 +1,2 @@
 Maintenance Tracker App is an application that provides users with the ability to reach out to operations or repairs department regarding repair or maintenance requests and monitor the status of their request.
-The interface can be accesed on https://judeinno.github.io/Maintainace-Tracker/UI To access the admin pages once on the sign up page or any other page, go to the URL and change index to admin
+The interface can be accesed on https://judeinno.github.io/Maintainace-Tracker/UI To access the admin pages once on the sign up page or any other page, go to the URL and change index to admin or *pagename* to admin
