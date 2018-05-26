@@ -21,12 +21,12 @@ body{
     background-size: cover;
   }
   
-  .content {
+  #content {
     position: fixed;
     left: 0;
     right: 0;
     z-index: 9999;
-    margin-left: 20px;
+    margin-left: 300px;
     margin-right: 20px;
   }
 #aboutus{
@@ -65,7 +65,7 @@ p{
 }
 #Maintenance{
     padding-top: 40px;
-    padding-right: 635px;
+    padding-right: 300px;
     padding-bottom: 0px;
     padding-left:0px;
     text-transform: uppercase;
@@ -91,7 +91,7 @@ p{
 }
 #footer{
     padding-top: 0px;
-    padding-right: 600px;
+    padding-right: 300px;
     padding-bottom: 0px;
     padding-left: 0px;
     text-align: center;
@@ -134,5 +134,5 @@ li a:hover {
     color: rgb(37, 177, 177);
 }
 p{
-    color: rgb(230, 216, 198);
+    color: rgb(238, 224, 209);
 }
