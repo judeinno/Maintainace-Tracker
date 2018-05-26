@@ -34,9 +34,12 @@ table {
     height: 60%;
     margin: 0 auto;
   }
-
+textarea{
+    font-family: "Open Sans Condensed", sans-serif;
+}
 
 th, td {
+    font-family: "Open Sans Condensed", sans-serif;
     text-align: left;
     padding: 5px;
     
@@ -73,6 +76,12 @@ th {
     color:white;
     text-shadow: 2px 2px black;
     font-size: 20px;
+}
+#date{
+    font-family: "Open Sans Condensed", sans-serif;
+}
+option{
+    font-family: "Open Sans Condensed", sans-serif;
 }
 #datein{
     text-align: center;
