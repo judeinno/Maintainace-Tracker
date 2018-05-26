@@ -21,17 +21,18 @@ body{
     background-size: cover;
   }
   
-  .content {
+  #content {
     position: relative;
     left: 0;
     right: 0;
     z-index: 9999;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
   }
 table {
     border-collapse: collapse;
-    width: 60%;
+    width: 80%;
+    height: 60%;
 }
 
 th, td {
@@ -52,10 +53,11 @@ th {
     text-shadow: 2px 2px black;
     font-size: 40px;
     padding-top: 41px;
+    padding-right: 300;
 }
 #footer{
     padding-top: -100px;
-    padding-right: 1060px;
+    padding-right: 300px;
     padding-bottom: 0px;
     padding-left: 10px;
     text-align: center;
