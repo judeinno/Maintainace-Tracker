@@ -23,12 +23,12 @@ body{
     background-size: cover;
   }
   
-  .content {
+  #content {
     position: fixed;
     left: 0;
     right: 0;
     z-index: 9999;
-    margin-left: 20px;
+    margin-left: 300px;
     margin-right: 20px;
   }
 #contactus{
@@ -66,7 +66,7 @@ input{
 }
 #Maintenance{
     padding-top: 40px;
-    padding-right: 635px;
+    padding-right:300px;
     padding-bottom: 0px;
     padding-left:0px;
     text-transform: uppercase;
@@ -92,7 +92,7 @@ input{
 }
 #footer{
     padding-top: 0px;
-    padding-right: 600px;
+    padding-right: 300px;
     padding-bottom: 0px;
     padding-left: 0px;
     text-align: center;
@@ -132,5 +132,5 @@ li a:hover {
     background-color: #111;
 }
 p{
-    color: rgb(228, 213, 195);
+    color: rgb(243, 229, 212);
 }
