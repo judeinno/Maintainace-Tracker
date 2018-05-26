@@ -27,12 +27,12 @@ body{
     left: 0;
     right: 0;
     z-index: 9999;
-    margin-left: 30px;
-    margin-right: 20px;
+    margin: 0 auto;
   }
 table {
     border-collapse: collapse;
     width: 90%;
+    margin: 0 auto;
 }
 
 th, td {
@@ -49,6 +49,7 @@ th {
     color: white;
 }
 #Maintenance{
+    text-align: center;
     color:rgba(231, 170, 16, 0.849);
     text-shadow: 2px 2px black;
     font-size: 40px;
