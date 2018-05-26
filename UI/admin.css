@@ -98,6 +98,7 @@ li a:hover {
     background-color: #111;
 }
 #submit{
+    font-family: "Open Sans Condensed", sans-serif;
     color: rgba(197, 197, 192, 0.87);
     background-color: rgba(31, 22, 22, 0.973);
     border-radius: 20px;
@@ -130,4 +131,7 @@ li a:hover {
 #slogan{
     color: rgba(231, 170, 16, 0.849);
     text-shadow: 2px 2px black;
+}
+option{
+    font-family: "Open Sans Condensed", sans-serif;
 }
