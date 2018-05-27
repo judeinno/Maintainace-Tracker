@@ -19,13 +19,8 @@
               </ul>
             </div>
             <div>
-                <div class="tab">
-                        <button class="tablinks" onclick="openStatus(event, 'disapproved')" id="defaultOpen">Disapproved</button>
-                        <button class="tablinks" onclick="openStatus(event, 'Approved')">Approved</button>
-                        <button class="tablinks" onclick="openStatus(event, 'resolved')">Resolved</button>
-                </div>
             
-                <div id="disapproved" class="tabcontent">
+                <div id="disapproved">
                     <p id="day">Disapproved</p>
                     <table >
                             <tr>
@@ -102,7 +97,7 @@
                             </tr>
                         </table>
                 </div>
-                <div id="Approved" class="tabcontent">
+                <div id="Approved">
                     <p id="day">Approved</p>
                     <table >
                         <tr>
@@ -179,7 +174,7 @@
                         </tr>
                     </table>
                 </div>
-                <div id="resolved" class="tabcontent">
+                <div id="resolved">
                     <p id="day">Resolved</p>
                     <table >
                         <tr>
