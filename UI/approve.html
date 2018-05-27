@@ -19,239 +19,244 @@
               </ul>
             </div>
             <div>
-                <div id="tabs">
-                    <div id="disapproved">
-                        <p id="day">Disapproved</p>
-                        <table >
-                                <tr>
-                                    <th>Request_id</th>
-                                    <th>User Name</th>
-                                    <th>Field</th>		
-                                    <th>Sub Field</th>
-                                    <th>Request_Type</th>
-                                    <th>Details</th>
-                                    <th>Assigned Specialist</th>
-                                    <th>Status</th>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>Jude</td>
-                                    <td>Electricity</td>		
-                                    <td>bulb</td>
-                                    <td>replace</td>
-                                    <td><div class="dropdown">
-                                        <span id="det">Request Details</span>
-                                        <div class="dropdown-content">
-                                            <p>The bulb blew</p>
-                                        </div>
-                                        </div>
-                                </td>
+                <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'disapproved')">Disapproved</button>
+                        <button class="tablinks" onclick="openCity(event, 'Approved')">Approved</button>
+                        <button class="tablinks" onclick="openCity(event, 'resolved')">Resolved</button>
+                </div>
+            
+                <div id="disapproved" class="tabcontent">
+                    <p id="day">Disapproved</p>
+                    <table >
+                            <tr>
+                                <th>Request_id</th>
+                                <th>User Name</th>
+                                <th>Field</th>		
+                                <th>Sub Field</th>
+                                <th>Request_Type</th>
+                                <th>Details</th>
+                                <th>Assigned Specialist</th>
+                                <th>Status</th>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Jude</td>
+                                <td>Electricity</td>		
+                                <td>bulb</td>
+                                <td>replace</td>
+                                <td><div class="dropdown">
+                                    <span id="det">Request Details</span>
+                                    <div class="dropdown-content">
+                                        <p>The bulb blew</p>
+                                    </div>
+                                    </div>
+                            </td>
+                            <td><select id="entity" name="entity">
+                                <option value="Electrician">Electrician</option>
+                                <option value="Water">Water Engineer</option>
+                                <option value="Environment">Hand Man</option>
+                                </select>
+                            </td>	
+                                <td>Disapprove<br></td>
+
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Jude</td>
+                                <td>Water</td>		
+                                <td>water heater</td>
+                                <td>repair</td>
+                                <td><div class="dropdown">
+                                    <span>Request Details</span>
+                                    <div class="dropdown-content">
+                                    <p>Its not heating the water</p>
+                                    </div>
+                                </div></td>
                                 <td><select id="entity" name="entity">
                                     <option value="Electrician">Electrician</option>
                                     <option value="Water">Water Engineer</option>
                                     <option value="Environment">Hand Man</option>
                                     </select>
                                 </td>	
-                                    <td>Disapprove<br></td>
-
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Jude</td>
-                                    <td>Water</td>		
-                                    <td>water heater</td>
-                                    <td>repair</td>
-                                    <td><div class="dropdown">
-                                        <span>Request Details</span>
-                                        <div class="dropdown-content">
-                                        <p>Its not heating the water</p>
-                                        </div>
-                                    </div></td>
-                                    <td><select id="entity" name="entity">
-                                        <option value="Electrician">Electrician</option>
-                                        <option value="Water">Water Engineer</option>
-                                        <option value="Environment">Hand Man</option>
-                                        </select>
+                                <td>Disapprove<br></td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Jude</td>
+                                <td>Environment</td>		
+                                <td>grass</td>
+                                <td>Maintainace</td>
+                                <td><div class="dropdown">
+                                    <span>Request Details</span>
+                                    <div class="dropdown-content">
+                                    <p>It has over grown</p>
+                                    </div>
+                                </div></td>
+                                <td><select id="entity" name="entity">
+                                    <option value="Environment">Hand Man</option>
+                                    <option value="Water">Water Engineer</option>
+                                    <option value="Electrician">Electrician</option>
+                                    </select>
                                     </td>	
-                                    <td>Disapprove<br></td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Jude</td>
-                                    <td>Environment</td>		
-                                    <td>grass</td>
-                                    <td>Maintainace</td>
-                                    <td><div class="dropdown">
-                                        <span>Request Details</span>
-                                        <div class="dropdown-content">
-                                        <p>It has over grown</p>
-                                        </div>
-                                    </div></td>
-                                    <td><select id="entity" name="entity">
-                                        <option value="Environment">Hand Man</option>
-                                        <option value="Water">Water Engineer</option>
-                                        <option value="Electrician">Electrician</option>
-                                        </select>
-                                        </td>	
-                                    <td>Disapprove</td>
-                                </tr>
-                            </table>
-                    </div>
-                    <div id="Approved">
-                        <p id="day">Approved</p>
-                        <table >
-                            <tr>
-                                <th>Request_id</th>
-                                <th>User Name</th>
-                                <th>Field</th>		
-                                <th>Sub Field</th>
-                                <th>Request_Type</th>
-                                <th>Details</th>  
-                                <th>Assigned Specialist</th>                                                                
-                                <th>Status</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Jude</td>
-                                <td>Electricity</td>		
-                                <td>sockets</td>
-                                <td>replace</td>
-                                <td><div class="dropdown">
-                                    <span>Request Details</span>
-                                    <div class="dropdown-content">
-                                    <p>They short circuited</p>
-                                    </div>
-                                </div></td>
-                                <td><select id="entity" name="entity">
-                                    <option value="Electrician">Electrician</option>
-                                    <option value="Water">Water Engineer</option>
-                                    <option value="Environment">Hand Man</option>
-                                    </select>
-                                    </td>
-                                <td>Approve</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Jude</td>
-                                <td>Water</td>		
-                                <td>Bathroom sink</td>
-                                <td>repair</td>
-                                <td><div class="dropdown">
-                                    <span>Request Details</span>
-                                    <div class="dropdown-content">
-                                    <p>Its broken</p>
-                                    </div>
-                                </div></td>
-                                <td><select id="entity" name="entity">
-                                    <option value="Water">Plumber</option>
-                                    <option value="Water">Water Engineer</option>
-                                    <option value="Electrician">Electrician</option>
-                                    <option value="Environment">Hand Man</option>
-                                    </select>
-                                    </td>
-                                <td>Approve</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Jude</td>
-                                <td>Environment</td>		
-                                <td>Trees</td>
-                                <td>Maintainace</td>
-                                <td><div class="dropdown">
-                                    <span>Request Details</span>
-                                    <div class="dropdown-content">
-                                    <p>They need trimming</p>
-                                    </div>
-                                </div></td>
-                                <td><select id="entity" name="entity">
-                                    <option value="Environment">Hand Man</option>
-                                    <option value="Water">Water Engineer</option>
-                                    <option value="Electrician">Electrician</option>
-                                    <option value="Water">Plumber</option>
-                                    </select>
-                                </td>
-                                <td>Approve</td>
+                                <td>Disapprove</td>
                             </tr>
                         </table>
-                    </div>
-                    <div id="resolved">
-                        <p id="day">Resolved</p>
-                        <table >
-                            <tr>
-                                <th>Request_id</th>
-                                <th>User Name</th>
-                                <th>Field</th>		
-                                <th>Sub Field</th>
-                                <th>Request_Type</th>
-                                <th>Details</th>  
-                                <th>Assigned Specialist</th>                                                                
-                                <th>Status</th>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Jude</td>
-                                <td>Electricity</td>		
-                                <td>sockets</td>
-                                <td>replace</td>
-                                <td><div class="dropdown">
-                                    <span>Request Details</span>
-                                    <div class="dropdown-content">
-                                    <p>They short circuited</p>
-                                    </div>
-                                </div></td>
-                                <td><select id="entity" name="entity">
-                                    <option value="Electrician">Electrician</option>
-                                    <option value="Water">Water Engineer</option>
-                                    <option value="Environment">Hand Man</option>
-                                    </select>
-                                    </td>
-                                <td>Approve</td>
-                            </tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Jude</td>
-                                <td>Water</td>		
-                                <td>Bathroom sink</td>
-                                <td>repair</td>
-                                <td><div class="dropdown">
-                                    <span>Request Details</span>
-                                    <div class="dropdown-content">
-                                    <p>Its broken</p>
-                                    </div>
-                                </div></td>
-                                <td><select id="entity" name="entity">
-                                    <option value="Water">Plumber</option>
-                                    <option value="Water">Water Engineer</option>
-                                    <option value="Electrician">Electrician</option>
-                                    <option value="Environment">Hand Man</option>
-                                    </select>
-                                    </td>
-                                <td>Resolved</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Jude</td>
-                                <td>Environment</td>		
-                                <td>Trees</td>
-                                <td>Maintainace</td>
-                                <td><div class="dropdown">
-                                    <span>Request Details</span>
-                                    <div class="dropdown-content">
-                                    <p>They need trimming</p>
-                                    </div>
-                                </div></td>
-                                <td><select id="entity" name="entity">
-                                    <option value="Environment">Hand Man</option>
-                                    <option value="Water">Water Engineer</option>
-                                    <option value="Electrician">Electrician</option>
-                                    <option value="Water">Plumber</option>
-                                    </select>
-                                </td>
-                                <td>Resolved</td>
-                            </tr>
-                        </table>
-                    </div>        
                 </div>
+                <div id="Approved" class="tabcontent">
+                    <p id="day">Approved</p>
+                    <table >
+                        <tr>
+                            <th>Request_id</th>
+                            <th>User Name</th>
+                            <th>Field</th>		
+                            <th>Sub Field</th>
+                            <th>Request_Type</th>
+                            <th>Details</th>  
+                            <th>Assigned Specialist</th>                                                                
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Jude</td>
+                            <td>Electricity</td>		
+                            <td>sockets</td>
+                            <td>replace</td>
+                            <td><div class="dropdown">
+                                <span>Request Details</span>
+                                <div class="dropdown-content">
+                                <p>They short circuited</p>
+                                </div>
+                            </div></td>
+                            <td><select id="entity" name="entity">
+                                <option value="Electrician">Electrician</option>
+                                <option value="Water">Water Engineer</option>
+                                <option value="Environment">Hand Man</option>
+                                </select>
+                                </td>
+                            <td>Approve</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jude</td>
+                            <td>Water</td>		
+                            <td>Bathroom sink</td>
+                            <td>repair</td>
+                            <td><div class="dropdown">
+                                <span>Request Details</span>
+                                <div class="dropdown-content">
+                                <p>Its broken</p>
+                                </div>
+                            </div></td>
+                            <td><select id="entity" name="entity">
+                                <option value="Water">Plumber</option>
+                                <option value="Water">Water Engineer</option>
+                                <option value="Electrician">Electrician</option>
+                                <option value="Environment">Hand Man</option>
+                                </select>
+                                </td>
+                            <td>Approve</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Jude</td>
+                            <td>Environment</td>		
+                            <td>Trees</td>
+                            <td>Maintainace</td>
+                            <td><div class="dropdown">
+                                <span>Request Details</span>
+                                <div class="dropdown-content">
+                                <p>They need trimming</p>
+                                </div>
+                            </div></td>
+                            <td><select id="entity" name="entity">
+                                <option value="Environment">Hand Man</option>
+                                <option value="Water">Water Engineer</option>
+                                <option value="Electrician">Electrician</option>
+                                <option value="Water">Plumber</option>
+                                </select>
+                            </td>
+                            <td>Approve</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="resolved" class="tabcontent">
+                    <p id="day">Resolved</p>
+                    <table >
+                        <tr>
+                            <th>Request_id</th>
+                            <th>User Name</th>
+                            <th>Field</th>		
+                            <th>Sub Field</th>
+                            <th>Request_Type</th>
+                            <th>Details</th>  
+                            <th>Assigned Specialist</th>                                                                
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Jude</td>
+                            <td>Electricity</td>		
+                            <td>sockets</td>
+                            <td>replace</td>
+                            <td><div class="dropdown">
+                                <span>Request Details</span>
+                                <div class="dropdown-content">
+                                <p>They short circuited</p>
+                                </div>
+                            </div></td>
+                            <td><select id="entity" name="entity">
+                                <option value="Electrician">Electrician</option>
+                                <option value="Water">Water Engineer</option>
+                                <option value="Environment">Hand Man</option>
+                                </select>
+                                </td>
+                            <td>Approve</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Jude</td>
+                            <td>Water</td>		
+                            <td>Bathroom sink</td>
+                            <td>repair</td>
+                            <td><div class="dropdown">
+                                <span>Request Details</span>
+                                <div class="dropdown-content">
+                                <p>Its broken</p>
+                                </div>
+                            </div></td>
+                            <td><select id="entity" name="entity">
+                                <option value="Water">Plumber</option>
+                                <option value="Water">Water Engineer</option>
+                                <option value="Electrician">Electrician</option>
+                                <option value="Environment">Hand Man</option>
+                                </select>
+                                </td>
+                            <td>Resolved</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Jude</td>
+                            <td>Environment</td>		
+                            <td>Trees</td>
+                            <td>Maintainace</td>
+                            <td><div class="dropdown">
+                                <span>Request Details</span>
+                                <div class="dropdown-content">
+                                <p>They need trimming</p>
+                                </div>
+                            </div></td>
+                            <td><select id="entity" name="entity">
+                                <option value="Environment">Hand Man</option>
+                                <option value="Water">Water Engineer</option>
+                                <option value="Electrician">Electrician</option>
+                                <option value="Water">Plumber</option>
+                                </select>
+                            </td>
+                            <td>Resolved</td>
+                        </tr>
+                    </table>
+                </div>        
+                
             </div>
     </body>
       <div>
