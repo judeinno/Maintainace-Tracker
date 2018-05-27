@@ -165,7 +165,10 @@ option{
     font-family: "Open Sans Condensed", sans-serif;
 }
 .tab button:hover {
-    background-color: rgb(177, 173, 173);
+    background-color: #ddd;
+}
+.tab button.active {
+    background-color: #ccc;
 }
 .tabcontent {
     border-collapse: collapse;
