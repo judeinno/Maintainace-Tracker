@@ -167,9 +167,6 @@ option{
 .tab button:hover {
     background-color: rgb(177, 173, 173);
 }
-.tab button.active {
-    background-color: #ccc;
-}
 .tabcontent {
     border-collapse: collapse;
     width: 90%;
