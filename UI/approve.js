@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openStatus(event, statusName) {
     var i, tabcontent, tablinks;
 
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -11,6 +11,6 @@ function openCity(evt, cityName) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
 
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(statusName).style.display = "block";
     evt.currentTarget.className += " active";
 }
