@@ -12,7 +12,7 @@ body{
     background-image: url('http://ims-crystal.com/wp-content/uploads/2015/05/E-maintenance-1.jpg');
     width: 100%;
     height: 100%;
-  
+    
     -webkit-filter: blur(5px);
     -moz-filter: blur(5px);
     -o-filter: blur(5px);
