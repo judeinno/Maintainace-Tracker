@@ -1,18 +1,18 @@
 ![app logo](favicon.ico)
-#Maintenance-Tracker
+# Maintenance-Tracker
 
 Maintenance Tracker App is an application that provides users with the ability to reach out to operations or repairs department regarding repair or maintenance requests and monitor the status of their request.
 
-#Getting Started
+# Getting Started
 
 Clone the project to your computer. And keep improving it.
 
-#Project Link
+# Project Link
 
 https://judeinno.github.io/Maintainace-Tracker/UI 
 To access the admin pages once on the sign up page add /admin.html or if on any other page, go to the URL *pagename* to admin
 
-#Features
+# Features
 
 -Users can create an account and log in.
 -The users can make maintenance or repairs request.
@@ -21,21 +21,21 @@ To access the admin pages once on the sign up page add /admin.html or if on any 
 -The admin can view all maintenance/repairs requests on the application
 -The admin can filter requests
 
-#Built With
+# Built With
 
 -HTML5
 -CSS
 
-#Prerequisites
+# Prerequisites
 
 -HTML 5
 -Internet
 
-#Authors
+# Authors
 
 Atuhaire Jude Innocent
 
-#Licensing
+# Licensing
 
 The app is opensource hence free to all users
 
