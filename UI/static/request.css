@@ -29,6 +29,13 @@ body{
     z-index: 2;
     margin: 0 auto;
   }
+form{
+    position: relative;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    margin: 0 auto;
+}
 table {
     border-collapse: collapse;
     width: 90%;
