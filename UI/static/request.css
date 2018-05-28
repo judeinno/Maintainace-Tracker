@@ -29,7 +29,7 @@ body{
     z-index: 2;
     margin: 0 auto;
   }
-form{
+#form{
     position: relative;
     left: 0;
     right: 0;
@@ -78,7 +78,7 @@ th {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
     position: fixed;
