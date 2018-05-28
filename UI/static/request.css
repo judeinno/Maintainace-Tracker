@@ -31,8 +31,8 @@ body{
   }
 #form{
     position: relative;
-    left: 0;
-    right: 0;
+    color: white;
+    border-radius: 5px;
     z-index: 2;
     margin: 0 auto;
 }
@@ -75,7 +75,6 @@ th {
     text-shadow: 2px 2px black;
     font-size: 20px;
 }
-
 ul {
     list-style-type: none;
     margin: 0 auto;
@@ -93,7 +92,6 @@ ul {
 li {
     float: left;
 }
-
 li a {
     display: inline-block;
     color: white;
@@ -131,4 +129,10 @@ textarea{
 }
 option{
     font-family: "Open Sans Condensed", sans-serif;
+}
+input{
+    font-family: "Open Sans Condensed", sans-serif;
+    border-radius: 5px;
+    width: 30%;
+    text-align: center;
 }
