@@ -136,3 +136,6 @@ input{
     width: 30%;
     text-align: center;
 }
+#submit{
+    margin: 0 auto;
+}
