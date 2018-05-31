@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/judeinno/Maintainace-Tracker.svg?branch=ft-API)](https://travis-ci.org/judeinno/Maintainace-Tracker)
 ![app logo](./logo.jpg)
 # Maintenance-Tracker
 
