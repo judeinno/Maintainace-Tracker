@@ -7,12 +7,12 @@ from API.tests.base import BaseTest
 class TestUserRequests(BaseTest):
 
     def test_if_URL_exists(self):
-        response = self.client.get('/api/v1/users/requests/1')
+        response = self.client.post('/api/v1/users/requests')
         assert "200 OK" ==response.status
 
     def test_api_check_non_authorised_user(self):
         with self.client:
-            response = self.client.get('/api/v1/users/requests/1')
+            response = self.client.post('/api/v1/users/requests')
             reply = json.loads(response.data.decode())
             self.assertEquals(reply["success"],False)
             self.assertEquals(reply["message"],"You are not authorised to access this page.")
