@@ -11,4 +11,5 @@ script:
   -pytest API/tests/test_pick_single_request.py
   -pytest API/tests/test_request.py
 
-
+after_success:
+  -coveralls
