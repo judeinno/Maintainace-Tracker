@@ -1,0 +1,14 @@
+language: python
+python:
+  -"3.6"
+# command to install dependencies
+install:
+  - pip install -r api/requirements.txt
+#command to run tests
+script:
+  -pytest API/tests/test_create_request.py
+  -pytest API/tests/test_modify_request.py
+  -pytest API/tests/test_pick_single_request.py
+  -pytest API/tests/test_request.py
+
+
