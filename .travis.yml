@@ -1,6 +1,6 @@
 language: python
 python:
-  -"3.6.5"
+  -"3.5.0"
 # command to install dependencies
 install:
   - pip install -r API/tests/requirements.txt
