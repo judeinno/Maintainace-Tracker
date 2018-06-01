@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/judeinno/Maintainace-Tracker.svg?branch=ft-API)](https://travis-ci.org/judeinno/Maintainace-Tracker)
+[![Build Status](https://travis-ci.org/judeinno/Maintainace-Tracker.svg?branch=master)](https://travis-ci.org/judeinno/Maintainace-Tracker)
 
 [![Coverage Status](https://coveralls.io/repos/github/judeinno/Maintainace-Tracker/badge.svg?branch=master)](https://coveralls.io/github/judeinno/Maintainace-Tracker?branch=master)
 ![app logo](./logo.jpg)
